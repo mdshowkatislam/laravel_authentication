@@ -6,4 +6,4 @@ It is a simple laravel authentication system. To install this project :
 5) clean project.
 7) start the project.
 8) Thats it.
-If any problem just call 008801534770999.
+If any problem just call 008801534770999 or email showkattuhin88766@gmail.com.
