@@ -94,11 +94,11 @@
                                     placeholder="Confirm password">
                             </div>
                         </div>
-                        <div class="form-group tx-12">By clicking the Sign Up button below, you agreed to our
+                        <div class="form-group tx-12">By clicking the Sign Up button, you agreed to our
                             privacy
                             policy and terms of use of
                             our Company.
-                        </div>
+                        </div><br>
 
                         <div class="row mb-3">
 

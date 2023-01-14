@@ -719,6 +719,7 @@ progress {
 .row > * {
     flex-shrink: 0;
     width: 100%;
+
     max-width: 100%;
     padding-right: calc(var(--bs-gutter-x) * 0.5);
     padding-left: calc(var(--bs-gutter-x) * 0.5);
@@ -2873,7 +2874,7 @@ textarea.form-control.is-invalid {
     --bs-btn-font-family: ;
     --bs-btn-font-size: 0.9rem;
     --bs-btn-font-weight: 400;
-    --bs-btn-line-height: 1.6;
+    --bs-btn-line-height: 17.6px;
     --bs-btn-color: #212529;
     --bs-btn-bg: transparent;
     --bs-btn-border-width: 1px;
