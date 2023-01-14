@@ -57,9 +57,16 @@
 
 
                             <div class="col-md-12">
+
+                                {{-- <input id="phone" type="number"
+                                    class="form-control @error('phone') is-invalid @enderror" name="phone"
+                                    value="{{ old('phone') }}" required placeholder="Enter mobile no e.g 0171XXXXXXX"
+                                    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"
+                                    size="11" minlength="11" maxlength="11"> --}}
                                 <input id="phone" type="text" class="form-control @error('phone') is-invalid @enderror"
                                     name="phone" value="{{ old('phone') }}" required
-                                    placeholder="Enter mobile no e.g 0171XXXXXXX">
+                                    placeholder="Enter mobile no e.g 0171XXXXXXX" <input type="text"
+                                    onkeypress="return /[0-9]/i.test(event.key)" maxlength="11">
 
                                 @error('phone')
                                 <span class="invalid-feedback" role="alert">
