@@ -65,7 +65,7 @@
                                     size="11" minlength="11" maxlength="11"> --}}
                                 <input id="phone" type="text" class="form-control @error('phone') is-invalid @enderror"
                                     name="phone" value="{{ old('phone') }}" required
-                                    placeholder="Enter mobile no e.g 0171XXXXXXX" <input type="text"
+                                    placeholder="Enter mobile no e.g 0171XXXXXXX"
                                     onkeypress="return /[0-9]/i.test(event.key)" maxlength="11">
 
                                 @error('phone')
