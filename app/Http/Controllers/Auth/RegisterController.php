@@ -59,7 +59,7 @@ class RegisterController extends Controller
                 'max:255',
                 'unique:users',
             ],
-            'phone' => 'required|string|max:20|unique:users',
+            'phone' => 'required|string|unique:users|digits:11',
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ]);
     }
